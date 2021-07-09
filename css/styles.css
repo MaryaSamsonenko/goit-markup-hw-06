@@ -755,6 +755,7 @@ img {
 
   background-color: var(--hero-text-color);
 }
+
 .close-modal-button {
   position: absolute;
   top: 8px;
@@ -770,4 +771,19 @@ img {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--hero-text-color);
+}
+
+.modal-title {
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.modal-lable {
+  display: block;
 }
