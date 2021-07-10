@@ -482,7 +482,7 @@
           <div class="modal-form-field">
             <label class="modal-lable">
               Имя
-              <input class="modal-input" type="name" name="name" placeholder=" " />
+              <input class="modal-input" type="name" name="name" placeholder=" " required />
               <svg class="modal-input-svg" width="18px" height="18px">
                 <use href="./images/sprite.svg#icon-person-modal"></use>
               </svg>
@@ -491,7 +491,7 @@
           <div class="modal-form-field">
             <label class="modal-lable">
               Телефон
-              <input class="modal-input" type="tel" name="tel" placeholder=" " />
+              <input class="modal-input" type="tel" name="tel" placeholder=" " required />
               <svg class="modal-input-svg" width="18px" height="18px">
                 <use href="./images/sprite.svg#icon-phone-modal"></use>
               </svg>
@@ -500,7 +500,7 @@
           <div class="modal-form-field">
             <label class="modal-lable">
               Почта
-              <input class="modal-input" type="email" name="email" placeholder=" " />
+              <input class="modal-input" type="email" name="email" placeholder=" " required />
               <svg class="modal-input-svg" width="18px" height="18px">
                 <use href="./images/sprite.svg#icon-email-modal"></use>
               </svg>
@@ -519,12 +519,26 @@
           </div>
           <div class="modal-form-field">
             <label class="modal-checkbox">
-              <input type="checkbox" name="hobby" value="music" checked />
-              Соглашаюсь с рассылкой и принимаю <a class="modal-link" href="">Условия договора</a>
+              <input
+                class="check-box"
+                type="checkbox"
+                name="topic"
+                value="checked"
+                checked
+                required
+              />
+              <svg class="icon-checkbox">
+                <use href="./images/sprite.svg#icon-vector"></use>
+              </svg>
+
+              <span class="label-checkbox"
+                >Соглашаюсь с рассылкой и принимаю
+                <a class="modal-link" href="">Условия договора</a></span
+              >
             </label>
           </div>
 
-          <button class="modal-button footer-button-input" type="submit">Отправить</button>
+          <button class="modal-button button-form" type="submit">Отправить</button>
         </form>
       </div>
     </div>
