@@ -900,9 +900,16 @@ img {
 }
 
 .check-box:checked + .icon-checkbox {
+  background-image: url('../images/sprite.svg#icon-vector');
+  background-size: contain;
+  background-origin: border-box;
+
   background-color: var(--accent-color);
   border-color: transparent;
   transform: scale(1.2);
+}
+.check-box:focus + .icon-checkbox {
+  border: 2px solid var(--accent-color);
 }
 
 .modal-link {
