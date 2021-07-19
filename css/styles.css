@@ -908,6 +908,9 @@ img {
   background-color: var(--accent-color);
   border-color: transparent;
   transform: scale(1.2);
+
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .check-box:focus + .icon-checkbox {
   border: 2px solid var(--accent-color);
